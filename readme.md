@@ -1,10 +1,11 @@
 Compile:
-gcc filter.c Filter
+make filter
 
 Run:
-./Filter filename.csv
-
+./filter filename.csv
 
 Plot:
-gnuplot 'filtered.csv' using 0:1 w linespoints
+gnuplot 
+plot 'filtered.csv' using 0:1 w linespoints
+
 
